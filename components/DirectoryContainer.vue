@@ -1,11 +1,9 @@
 <template>
   <div class="flex w-full flex-wrap justify-between">
     <CategoryItem
-      v-for="{ id, title, imageUrl } in categories"
-      :id="id"
-      :title="title"
-      :imageUrl="imageUrl"
-      :key="id"
+      v-for="category in categories"
+      :category="category"
+      :key="category.id"
     />
   </div>
 </template>
@@ -18,5 +16,5 @@ const props = defineProps({
   },
 });
 
-const {} = toRefs(props);
+const { categories } = toRefs(props);
 </script>
