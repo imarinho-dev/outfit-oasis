@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/google-fonts", "nuxt-quasar-ui"],
-
+  modules: [
+    "@nuxtjs/tailwindcss",
+    "@nuxtjs/google-fonts",
+    "nuxt-quasar-ui",
+    "nuxt-vuefire",
+  ],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     configPath: "tailwind.config",
@@ -19,6 +23,14 @@ export default defineNuxtConfig({
       fontIcons: ["material-icons", "fontawesome-v6"],
       svgIcons: [],
       animations: [],
+    },
+  },
+  vuefire: {
+    config: {
+      apiKey: "...",
+      authDomain: "...",
+      projectId: "...",
+      appId: "...",
     },
   },
 });
