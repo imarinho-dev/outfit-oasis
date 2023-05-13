@@ -9,18 +9,18 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.4.6",
+    "@nuxt/image": "^0.7.1",
     "@nuxtjs/google-fonts": "^3.0.0",
-    "@nuxtjs/tailwindcss": "^6.6.6",
-    "nuxt": "^3.4.1",
-    "nuxt-quasar-ui": "^1.6.1",
-    "prettier": "^2.8.7",
-    "prettier-plugin-tailwindcss": "^0.2.7"
+    "@nuxtjs/tailwindcss": "^6.6.8",
+    "nuxt": "^3.4.3",
+    "nuxt-quasar-ui": "^1.7.3",
+    "prettier": "^2.8.8",
+    "prettier-plugin-tailwindcss": "^0.2.8"
   },
   "dependencies": {
-    "@quasar/extras": "^1.16.2",
-    "firebase": "^9.19.1",
-    "nuxt-vuefire": "^0.1.6",
-    "quasar": "^2.11.10",
-    "vuefire": "^3.1.0"
+    "@quasar/extras": "^1.16.3",
+    "firebase": "^9.22.0",
+    "quasar": "^2.12.0"
   }
 }

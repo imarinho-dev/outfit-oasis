@@ -1,7 +1,6 @@
 <template>
   <div
     class="group m-[0_7.5px_15px] flex min-w-[30%] flex-auto items-center justify-center overflow-hidden border border-solid border-black first:mr-[7.5px] last:ml-[7.5px] hover:cursor-pointer"
-    :class="`${category.id <= 3 ? 'h-[240px]' : 'h-[380px]'}`"
   >
     <div
       class="h-full w-full bg-cover bg-center ease-[cubic-bezier(0.25,0.45,0.45,0.95)] group-hover:scale-110 group-hover:duration-500"

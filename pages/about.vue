@@ -1,11 +1,4 @@
 <template>
-  <div>{{ about.title }}</div>
-  <div>{{ about.imageUrl }}</div>
+  <div>About</div>
 </template>
-<script setup lang="ts">
-const about: Category = {
-  id: 2,
-  title: "Iran",
-  imageUrl: "terere",
-};
-</script>
+<script setup></script>

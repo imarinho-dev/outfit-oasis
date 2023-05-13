@@ -1,9 +1,10 @@
 <template>
   <div class="flex w-full flex-wrap justify-between">
     <CategoryItem
-      v-for="category in categories"
+      v-for="(category, index) in categories"
       :category="category"
       :key="category.id"
+      :class="`${index <= categories.length - 3 ? 'h-[240px]' : 'h-[380px]'}`"
     />
   </div>
 </template>
