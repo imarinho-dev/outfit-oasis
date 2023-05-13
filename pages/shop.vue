@@ -1,4 +1,4 @@
 <template>
-  <div>About</div>
+  <div>Shop</div>
 </template>
 <script setup></script>
